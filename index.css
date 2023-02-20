@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /* div tarja preta do topo  */
 #tarjatopo{
     width: 100%;
