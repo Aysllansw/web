@@ -139,7 +139,6 @@ a{
     margin: 0 auto;
     cursor: pointer;
 }
-
 /* Parte do banner */
 .slider{
     position: absolute;
@@ -152,3 +151,26 @@ a{
     
 }
 */
+.q-produto{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+.q-m-produto{
+
+    width: calc(10% - 16px);
+    margin: 0px 0.25rem 1rem;
+
+}
+.f-m-produto{
+
+    height: auto;
+    width: 100%;
+    position: flex;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
