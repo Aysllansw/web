@@ -154,7 +154,6 @@ a{
 .q-produto{
 
     display: flex;
-    flex-wrap: wrap;
     margin: 1.5rem 0px;
     -webkit-box-pack: center;
     justify-content: center;
@@ -162,7 +161,7 @@ a{
 }
 .q-m-produto{
 
-    width: calc(10% - 16px);
+    width: 25%;
     margin: 0px 0.25rem 1rem;
 
 }
@@ -170,7 +169,29 @@ a{
 
     height: auto;
     width: 100%;
-    position: flex;
+    position: relative;
     margin: 0px auto;
     box-sizing: border-box;
+}
+.idc{
+
+    height: auto;
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px auto 0.3125rem;
+    max-height: 15.1875rem;
+    color: rgb(91, 91, 91);
+    letter-spacing: 0.64px;
+
+}
+.idcs{
+
+    padding: 0.6875rem;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
 }
