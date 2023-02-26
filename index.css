@@ -1,6 +1,6 @@
 /* Ações relacionados ao <BODY> */
 #fundo{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(151, 151, 151);
     margin: 0px;
     padding: 0px;
 }
@@ -154,44 +154,48 @@ a{
 .q-produto{
 
     display: flex;
-    margin: 1.5rem 0px;
-    -webkit-box-pack: center;
-    justify-content: center;
 
 }
 .q-m-produto{
 
-    width: 25%;
-    margin: 0px 0.25rem 1rem;
+    width: calc(24% - 16px);
+    margin: 0px 0.25rem 1 rem;
 
 }
 .f-m-produto{
 
-    height: auto;
-    width: 100%;
-    position: relative;
+    position: flex;
     margin: 0px auto;
-    box-sizing: border-box;
 }
 .idc{
 
-    height: auto;
-    width: 100%;
     font-size: 0.75rem;
     line-height: 1rem;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     margin: 0px auto 0.3125rem;
+    margin-bottom: 0.9375rem;
+    padding: 0px;
     max-height: 15.1875rem;
     color: rgb(91, 91, 91);
     letter-spacing: 0.64px;
+    cursor: pointer;
 
 }
 .idcs{
 
+    width: 35%;
+    height: 10%;
     padding: 0.6875rem;
     position: relative;
     background-color: rgb(255, 255, 255);
+
+}
+.foto-p{
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 
 }
